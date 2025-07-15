@@ -1,7 +1,6 @@
 # NFC Cybersecurity Quiz
 
-A simple online quiz to test your cybersecurity knowledge.  
-Works great when accessed via NFC tags or directly in a browser.
+A simple online quiz to test your cybersecurity knowledge making use of NFCs!
 
 
 ---
