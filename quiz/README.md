@@ -28,18 +28,11 @@ Works great when accessed via NFC tags or directly in a browser.
 
 ---
 
-## Customize
+## Built With
 
-- Edit `quiz.json` to add or change questions.  
-- Change colors and fonts in `style.css`.
-
----
-
-## License
-
-MIT License — free to use and share.
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- JSON (for quiz data)
 
 ---
-
-Created by [Your Name]
-
