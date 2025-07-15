@@ -29,7 +29,7 @@ Works great when accessed via NFC tags or directly in a browser.
 ## Screenshots
 
 ### Question  
-![Question Screenshot](quiz/uscreenshots/question.png)
+![Question Screenshot](quiz/screenshots/question.png)
 
 ### Feedback  
 ![Feedback Screenshot](quiz/screenshots/feedback.png)
