@@ -29,13 +29,13 @@ Works great when accessed via NFC tags or directly in a browser.
 ## Screenshots
 
 ### Question  
-![Question Screenshot](screenshots/question.png)
+![Question Screenshot](quiz/uscreenshots/question.png)
 
 ### Feedback  
-![Feedback Screenshot](screenshots/feedback.png)
+![Feedback Screenshot](quiz/screenshots/feedback.png)
 
 ### Final Score  
-![Score Screenshot](screenshots/score.png)
+![Score Screenshot](quiz/screenshots/score.png)
 
 ---
 
