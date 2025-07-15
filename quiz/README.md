@@ -3,6 +3,7 @@
 A simple online quiz to test your cybersecurity knowledge.  
 Works great when accessed via NFC tags or directly in a browser.
 
+
 ---
 ## Tech Stack
 
@@ -10,6 +11,7 @@ Works great when accessed via NFC tags or directly in a browser.
 - CSS3  
 - JavaScript (Vanilla)  
 - JSON (for quiz data)
+- Vercel (for hosting)
 
 ---
 
@@ -37,3 +39,5 @@ Works great when accessed via NFC tags or directly in a browser.
 
 ---
 
+## Link
+https://cyber-quiz-tan.vercel.app/
