@@ -4,6 +4,15 @@ A simple online quiz to test your cybersecurity knowledge.
 Works great when accessed via NFC tags or directly in a browser.
 
 ---
+## Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- JSON (for quiz data)
+
+---
+
 
 ## How to Use
 
@@ -28,11 +37,3 @@ Works great when accessed via NFC tags or directly in a browser.
 
 ---
 
-## Built With
-
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)  
-- JSON (for quiz data)
-
----
