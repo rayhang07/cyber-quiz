@@ -1,50 +1,102 @@
-{
-    "questions": [
-      {
-        "question": "Clicking a link in an unexpected email from your bank.",
-        "answer": "Unsafe",
-        "explanation": "It could be a phishing attempt. Always visit the official website directly."
-      },
-      {
-        "question": "Using the same password for multiple accounts.",
-        "answer": "Unsafe",
-        "explanation": "If one site gets breached, all your accounts become vulnerable."
-      },
-      {
-        "question": "Enabling two-factor authentication (2FA).",
-        "answer": "Safe",
-        "explanation": "2FA adds a second layer of security to your login process."
-      },
-      {
-        "question": "Using public Wi-Fi without a VPN.",
-        "answer": "Unsafe",
-        "explanation": "Public Wi-Fi is easy to intercept. Always use a VPN when available."
-      },
-      {
-        "question": "Checking for HTTPS in the browser before entering credentials.",
-        "answer": "Safe",
-        "explanation": "HTTPS encrypts your data and ensures a secure connection."
-      },
-      {
-        "question": "Installing unknown browser extensions.",
-        "answer": "Unsafe",
-        "explanation": "Extensions can access and steal your data if they're malicious."
-      },
-      {
-        "question": "Using biometric authentication on your phone.",
-        "answer": "Safe",
-        "explanation": "Biometric login adds convenience and an extra security layer."
-      },
-      {
-        "question": "Leaving your devices unlocked in public places.",
-        "answer": "Unsafe",
-        "explanation": "Someone could access your data or install malware."
-      },
-      {
-        "question": "Using a password manager.",
-        "answer": "Safe",
-        "explanation": "Password managers generate and store strong, unique passwords."
-      }
-    ]
+[
+  {
+    "question": "You click a link in an email that redirects to a site with a slightly misspelled domain name (e.g., g00gle.com).",
+    "correctAnswer": "Unsafe",
+    "explanation": "This is likely a phishing site using typosquatting to trick users."
+  },
+  {
+    "question": "You upload a sensitive file to a public Google Drive folder without setting permissions.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Public folders can be indexed or accessed by anyone with the link."
+  },
+  {
+    "question": "You receive a phone call from someone claiming to be IT support asking for your password to 'verify your account.'",
+    "correctAnswer": "Unsafe",
+    "explanation": "No legitimate support will ever ask for your password. This is social engineering."
+  },
+  {
+    "question": "You use an outdated version of a plugin on your personal website.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Outdated plugins often contain known vulnerabilities attackers can exploit."
+  },
+  {
+    "question": "You connect your personal laptop to your workplace network without informing IT.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Unmanaged personal devices can introduce security risks to corporate networks."
+  },
+  {
+    "question": "You encrypt sensitive files before storing them on a cloud drive.",
+    "correctAnswer": "Safe",
+    "explanation": "Encrypting files ensures confidentiality even if the cloud account is breached."
+  },
+  {
+    "question": "You use fingerprint authentication on your phone instead of a 4-digit PIN.",
+    "correctAnswer": "Safe",
+    "explanation": "Biometric authentication is generally more secure than short PINs."
+  },
+  {
+    "question": "You leave your work laptop unlocked while stepping away for a few minutes at a café.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Unattended, unlocked devices are vulnerable to theft or tampering."
+  },
+  {
+    "question": "You receive an unexpected USB stick in the mail with a label 'Company Confidential' and plug it in out of curiosity.",
+    "correctAnswer": "Unsafe",
+    "explanation": "USB drives can carry malware. Never use untrusted devices."
+  },
+  {
+    "question": "You use email filters to automatically archive messages from unknown senders.",
+    "correctAnswer": "Unsafe",
+    "explanation": "This may hide phishing attempts. Always review unknown messages cautiously."
+  },
+  {
+    "question": "You install antivirus software but never update it.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Outdated antivirus can’t detect the latest threats."
+  },
+  {
+    "question": "You regularly back up your files to an external hard drive you disconnect afterward.",
+    "correctAnswer": "Safe",
+    "explanation": "Offline backups protect against ransomware and accidental deletion."
+  },
+  {
+    "question": "You see a browser popup that says 'Your computer is infected! Click here to clean it now!' and you follow it.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Fake popups are a common method to spread malware."
+  },
+  {
+    "question": "You use incognito mode to stay completely anonymous online.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Incognito prevents local tracking but not network-level monitoring or website tracking."
+  },
+  {
+    "question": "You use a website that doesn't have HTTPS but still enter your login credentials.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Without HTTPS, your data can be intercepted."
+  },
+  {
+    "question": "You receive a text message with a link claiming your delivery failed and needs rescheduling.",
+    "correctAnswer": "Unsafe",
+    "explanation": "These are often smishing attacks. Verify through the official website instead."
+  },
+  {
+    "question": "You install a new app and review its permissions before granting access.",
+    "correctAnswer": "Safe",
+    "explanation": "Reviewing app permissions helps avoid unnecessary or malicious access."
+  },
+  {
+    "question": "You use a personal email address to manage admin rights for your company's server.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Use dedicated, monitored accounts for admin tasks — not personal ones."
+  },
+  {
+    "question": "You receive a security warning in your browser when visiting a site, but proceed anyway because you trust it.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Security warnings indicate potential danger — never ignore them without verifying."
+  },
+  {
+    "question": "You download free software from a third-party site because the official site requires registration.",
+    "correctAnswer": "Unsafe",
+    "explanation": "Unofficial sources can host tampered or malicious versions of software."
   }
-  
+]
