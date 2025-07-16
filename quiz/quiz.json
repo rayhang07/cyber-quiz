@@ -1,4 +1,5 @@
-[
+{
+  "questions": [
   {
     "question": "You click a link in an email that redirects to a site with a slightly misspelled domain name (e.g., g00gle.com).",
     "correctAnswer": "Unsafe",
@@ -99,4 +100,5 @@
     "correctAnswer": "Unsafe",
     "explanation": "Unofficial sources can host tampered or malicious versions of software."
   }
-]
+ ]
+}
