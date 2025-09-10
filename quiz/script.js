@@ -3,7 +3,7 @@ let currentQuestion = {};
 let questions = [];
 let currentIndex = 0;
 let score = 0;
-const totalQuestions = 5; // or however many you want
+const totalQuestions = 5; 
 
 async function startQuiz() {
   document.getElementById('restart-btn').style.display = "none";
@@ -55,3 +55,4 @@ function showScore() {
 }
 
 startQuiz();
+
